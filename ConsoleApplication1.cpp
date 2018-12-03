@@ -13,23 +13,25 @@ int main()
 	//setlocale (LC_ALL,"Russian");
 
 	int A, B, C;
-	cout << "Ââåä³òü A - " << endl;
+	cout << "Ã‚Ã¢Ã¥Ã¤Â³Ã²Ã¼ A - " << endl;
 	cin >> A;
-	cout << "Ââåä³òü B - " << endl;
+	cout << "Ã‚Ã¢Ã¥Ã¤Â³Ã²Ã¼ B - " << endl;
 	cin >> B;
-	cout << "Ââåä³òü C - " << endl;
+	cout << "Ã‚Ã¢Ã¥Ã¤Â³Ã²Ã¼ C - " << endl;
 	cin >> C;
 	if (A > B&&B > C)
 	{
-		cout << "³ñòèííî";
+		cout << "Â³Ã±Ã²Ã¨Ã­Ã­Ã®";
 	}
 	else if (A < B&&B < C)
 	{
-		cout << "íå ³ñòèííî";
+		cout << "Ã­Ã¥ Â³Ã±Ã²Ã¨Ã­Ã­Ã®";
 	}
 	else if
 	{
-		cout << "\nÍå ³ñíóº - ";
+		cout << "\nÃÃ¥ Â³Ã±Ã­Ã³Âº - ";
 	}
 	system("pause");
+	
+	
 	return 0;
